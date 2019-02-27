@@ -1,5 +1,5 @@
 # RandomNumberHTML
-RandomNumberHTML for Raghavan placard
+RandomNumberHTML for Raghavan numbers flash card
 
 1. Save the html file to a folder
 2. Open the html file in a browser
