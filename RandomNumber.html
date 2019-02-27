@@ -17,11 +17,18 @@
           color:White;
           font-size: 400px;
         }
+        h2 {
+           color: DodgerBlue;
+           text-align: center;
+        }
     </style>
 </head>
 <body>
-
-
+<! Header to give a brief intro>
+<h2>
+    Click Button to show Random Numbers between 0 to 100
+</h2>
+<! Table of one row by one cell to hold random number display >
 <table align="center" border="10" color="blue">
     <tr>
         <td id="one"> 00
@@ -29,12 +36,13 @@
     </tr>
 </table>
 
+<! Button to click to get next random number>
 <p align="center" ><button onclick="random()" class="button-size" >Click Next Random Number</button></p>
 
 <script>
  function random(){
 
-document.getElementById("one").innerHTML = Math.floor(Math.random() * 100)+1;
+document.getElementById("one").innerHTML = Math.floor(Math.random() * 101);
 }
 </script>
 
