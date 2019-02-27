@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .button-size {
+          height: 60px;
+          width: 300px;
+          border-radius: 15px ;
+          color: DodgerBlue;
+          font-size: 20px;
+        }
+        td {
+          border:4px solid Tomato;
+          background-color:MediumSeaGreen;
+          color:White;
+          font-size: 400px;
+        }
+    </style>
+</head>
+<body>
+
+
+<table align="center" border="10" color="blue">
+    <tr>
+        <td id="one"> 00
+        </td>
+    </tr>
+</table>
+
+<p align="center" ><button onclick="random()" class="button-size" >Click Next Random Number</button></p>
+
+<script>
+ function random(){
+
+document.getElementById("one").innerHTML = Math.floor(Math.random() * 100)+1;
+}
+</script>
+
+</body>
+</html>
