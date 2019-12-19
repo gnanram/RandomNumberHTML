@@ -12,51 +12,175 @@
 		body {
 		border: 1px solid black;
 		margin: 30px;
-		padding: 20px;
+		padding: 10px;
 		width: 500px;
 		height: 700px;
 		
 		}
-		.logo{
-			width: 60px;
-			height: 80px;
+		.column {
+			float: left;
+			width: 400px;
+		}
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		.titleheader {
+			text-align: center;
+		}
+
+		.logo {
+			width: 20px;
+			height: 20px;
 		}
 		.littlebox {
 			border: 1px solid black;
-			width: 10px;
-			height: 7px;
+			width: 20px;
+			height: 15px;
 		}
+		table {
+			
+			cellspacing:40px;
+			
+		}
+		
+		td {
+			border: 1px solid black;
+			border-spacing: 10px;
+			padding: 0 15px;
+			width: 30px;
+			height: 30px;
+		}
+		h2{
+    text-transform:capitalize;
+    font-variant:small-caps;
+    font-weight:bold;
+}
 		</style>
 	</head>
 	<body>
-		<div>
+		<div >
 			<div class="row">
-				<div class="logo">
+				<div class="column logo">
+					<img src="./images/TheAcademyLogo.png" alt="Logo" height="80px"> 
 				</div>
-				<div class="header">
-					<h2> Team Academy </h2>
-					<h2> Little Dragons</h2>
+				<div class="column header">
+					<h2 class="titleheader"> Team Academy </h2>
+					<h2 class=titleheader> Little Dragons</h2>
 				</div>
 			</div>
 		</div>
-		<div>
-			<p> Name:_____________________________________________</p>
-			<p> Belt:_______________________________________________</p>
+		<div style="padding: 10px">
+			<p> Name:____________________________________________________</p>
+			<p> Belt:_____________________________________________________</p>
 
 		</div>
-		<div>
+		<div style="padding: 10px">
 			<p> Stripes</p>
-			<p> 1st <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
-			<p> 2nd <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
-			<p> 3rd <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
-			<p> 4th <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
-			<p> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
-			<p> </p>
-			<p> 1st <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
-			<p> 2nd <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
-			<p> 3rd <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
-			<p> 4th <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
-			<p> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span> &nbsp; &nbsp; &nbsp; &nbsp; <span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp;<span  class="littlebox"> &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+			<table cellspacing="9px"> 
+				<tr> 
+					<th> 1st </th>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr> 
+					<th> 2nd </th>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr> 
+					<th> 3rd </th>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr> 
+					<th> 4th </th>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr> 
+					<th>  </th>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+
+			</table>
+
+
+			<p></p>
+
+
+			<table cellspacing="9px" title="Stripes"> 
+				<tr> 
+					<th> 1st </th>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr> 
+					<th> 2nd </th>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr> 
+					<th> 3rd </th>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr> 
+					<th> 4th </th>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr> 
+					<th>  </th>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+
+			</table>
+
+
 		</div>
 	</div>
 </body>
