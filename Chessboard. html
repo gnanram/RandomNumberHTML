@@ -1,0 +1,158 @@
+<html>
+	<title>
+	Ninja Little Dragons Class Card
+	</title>
+	
+	<head>
+		<style>
+		@page {
+		size: 5.5in 8.5in;
+		margin: 20pt 40pt 20pt;
+		}
+		body {
+		border: 1px solid black;
+		margin: 30px;
+		padding: 10px;
+		width: 500px;
+		height: 720px;
+		
+		}
+		.column {
+			float: left;
+		}
+		.row:after {
+		content: "";
+		display: table;
+		clear: both;
+		}
+		.titleheader {
+			text-align: center;
+			width: 400px;
+			margin-left: 50px;
+			margin-top: 15px;
+			font-weight: normal;
+		}
+		.logo {
+			height: 100px;
+			width: 50px;
+			margin-top: 1px;
+		}
+		.littlebox {
+			border: 1px solid black;
+			width: 20px;
+			height: 15px;
+		}
+		
+		td {
+			border: 0;
+			width: 50px;
+			height: 50px;
+		}
+
+		th {
+			font-weight: normal;
+		}
+
+		h2{
+			text-transform:capitalize;
+			font-variant:small-caps;
+
+		}
+		</style>
+	</head>
+	<body>
+		<p> Chessboard </p>
+<table cellspacing="0" title="Chess">
+
+<tr>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+</tr>
+
+<tr>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+</tr>
+
+<tr>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+</tr>
+
+<tr>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+</tr>
+
+<tr>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+</tr>
+
+<tr>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+</tr>
+
+<tr>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+</tr>
+
+<tr>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td> 
+<td> </td>
+</tr>
+
+</table>
+
+</body>
+</html>
