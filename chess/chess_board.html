@@ -37,10 +37,28 @@
 				margin-top: 40px;
 				
 			}
+
+/*=====BOARD GAME=================*/
+
+#board {
+    width: 480px;
+    margin: 15px auto 20px auto;
+    background: #ccc;
+    border: 25px solid #fff;
+    border-radius: 10px;
+    box-shadow: inset -1px 1px 7px rgba(0,0,0,.2), 
+                inset 1px -1px 7px rgba(0,0,0,.2), 
+                1px 12px 5px rgba(0,0,0,.4), 
+                4px 3px 8px rgba(0,0,0,.4), 
+                5px 10px 10px rgba(0,0,0,.2), 
+                -5px 10px 10px rgba(0,0,0,.4);
+}
+
 		</style>
 	</head>
 	<body>
-		<table align="center">
+		<div class="board">
+                   <table align="center">
 			<tr>
 				<td class="black"> &#9820;</td>
 				<TD class="white"> &#9822;</TD>
@@ -121,6 +139,7 @@
 				<TD class="white"> &#9817;</TD>
 				<td class="black"> &#9817;</td>
 			</tr>
-
+</table>
+</div>
 		</body>
 	</html>
